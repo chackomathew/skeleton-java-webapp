@@ -3,17 +3,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>me.melvins.labs</groupId>
-    <artifactId>skeleton-java-webapp</artifactId>
+    <groupId>com.devops.poc</groupId>
+    <artifactId>devops-poc</artifactId>
     <version>0.0.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>skeleton-java-webapp</name>
+    <name>devops poc</name>
     <description>This is a basic skeleton project to kick start a WebApp build.</description>
 
     <developers>
         <developer>
-            <name>Mels</name>
+            <name></name>
         </developer>
     </developers>
 

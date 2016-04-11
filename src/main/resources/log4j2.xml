@@ -25,7 +25,7 @@
     </Appenders>
 
     <Loggers>
-        <AsyncLogger name="me.melvins.labs" level="DEBUG" additivity="false" includeLocation="false">
+        <AsyncLogger name="com.devops.poc" level="DEBUG" additivity="false" includeLocation="false">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="LogFile"/>
         </AsyncLogger>
