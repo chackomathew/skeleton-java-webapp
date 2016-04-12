@@ -19,19 +19,7 @@ public class WebConfig implements WebApplicationInitializer {
 
     public void onStartup(ServletContext servletContext) throws ServletException {
 
-        AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
-        ctx.register(AppConfig.class);
-
-        createDispatcherServlet(servletContext, ctx);
-
         createLoggingFilter(servletContext);
-    }
-
-    private void createDispatcherServlet(ServletContext servletContext, AnnotationConfigWebApplicationContext ctx) {
-
-        ServletRegistration.Dynamic dispatcher = servletContext.addServlet("dispatcher", new DispatcherServlet(ctx));
-        dispatcher.addMapping("/");
-        dispatcher.setLoadOnStartup(1);
     }
 
     private void createLoggingFilter(ServletContext servletContext) { //TODO

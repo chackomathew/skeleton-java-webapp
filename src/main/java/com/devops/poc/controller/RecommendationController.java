@@ -1,8 +1,8 @@
 package com.devops.poc.controller;
 
-import com.devops.poc.pojo.models.Product;
-import com.devops.poc.pojo.models.ProductRecommendation;
-import com.devops.poc.pojo.models.Products;
+import com.devops.poc.model.Product;
+import com.devops.poc.model.ProductRecommendation;
+import com.devops.poc.model.Products;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;

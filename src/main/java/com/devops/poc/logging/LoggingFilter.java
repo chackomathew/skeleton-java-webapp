@@ -31,7 +31,7 @@ public class LoggingFilter implements Filter {
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain)
             throws IOException, ServletException {
 
-        ThreadContext.put(CID.name(), "TODO"); // TODO
+        ThreadContext.put(CID.name(), "DevopsPOC");
 
         LOGGER.debug("Beginning Actual Request Processing");
         filterChain.doFilter(servletRequest, servletResponse);

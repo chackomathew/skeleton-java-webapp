@@ -1,4 +1,4 @@
-package com.devops.poc.pojo.models;
+package com.devops.poc.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
